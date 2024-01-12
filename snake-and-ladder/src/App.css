@@ -1,0 +1,71 @@
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell {
+  width: calc(100% / 10);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.activePosition {
+  background-color: red;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.button {
+  padding: 4px 20px;
+  margin: 20px;
+}
+.info {
+  /* display: flex; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.info > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  background-color: rgb(243, 238, 238);
+}
+.info > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: 4px;
+}
+.playerPosition {
+  text-align: center;
+}
+.player1 {
+  background-color: red !important;
+}
+.player2 {
+  background-color: blue !important;
+}
+.player3 {
+  background-color: green !important;
+}
+.player4 {
+  background-color: yellow !important;
+}
